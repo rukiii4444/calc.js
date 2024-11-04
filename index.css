@@ -49,11 +49,10 @@ body {
 .btn_box > button {
     margin: 1px;
     font-size: 2rem;
-    /*font-weight: bold;   数字が太くなる*/
     border: none; 
-    /*background: linear-gradient(to left, #46ec6a, #d4e20c);   ボタンの色*/
     cursor: pointer;
     background-color: white;
+    color: black;
 
 }
 
@@ -61,6 +60,8 @@ body {
     grid-row: 1/2;
     grid-column: 1/4;
     background: linear-gradient(to left, #ff1d4e, #ff0ed7);
+    color: white;
+
 }
 
 .btn_box>.plus_btn {
